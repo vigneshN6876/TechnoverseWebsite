@@ -150,6 +150,6 @@
 
 @media (max-width: 360px) {
   .TV.txt {
-    font-size: 50px; /* Adjust for very small mobile screens */
+    font-size: 30px; /* Adjust for very small mobile screens */
   }
 }
