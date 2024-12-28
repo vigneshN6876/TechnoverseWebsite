@@ -80,3 +80,76 @@
   top: 0;
   border-radius: 10px;
 }
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('fonts/TribalizmFour-JpEBo.ttf') format('truetype');
+}
+.TV{
+  font-family: 'MyCustomFont' , sans-serif;
+}
+.TV_BACkground{
+  background: rgb(182,132,236);
+  background: linear-gradient(90deg, rgba(182,132,236,0.835171568627451) 0%, rgba(150,58,241,0.9248074229691877) 0%, rgba(139,145,224,1) 42%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.Debug{
+ background-color: #E6A7F3;
+ border-radius: 30px;
+ padding: 10px;
+
+}
+.lyric{
+  background-color: #FFCAD4;
+  border-radius: 30px;
+  padding: 10px;
+ 
+ }
+ .FF{
+  background-color: #FFCAD4;
+  border-radius: 30px;
+  padding: 10px;
+ 
+ }
+ .PM{
+  background-color: #FFCAD4;
+  border-radius: 30px;
+  padding: 10px;
+ 
+ }
+ .TV.txt {
+  font-size: 250px; /* Default size for large screens */
+}
+
+@media (max-width: 1200px) {
+  .TV.txt {
+    font-size: 200px; /* Adjust for smaller desktops or tablets */
+  }
+}
+
+@media (max-width: 768px) {
+  .TV.txt {
+    font-size: 150px; /* Adjust for tablets */
+  }
+}
+
+@media (max-width: 576px) {
+  .TV.txt {
+    font-size: 100px; /* Adjust for mobile phones */
+  }
+}
+
+@media (max-width: 360px) {
+  .TV.txt {
+    font-size: 50px; /* Adjust for very small mobile screens */
+  }
+}
