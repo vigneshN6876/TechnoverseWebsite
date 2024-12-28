@@ -144,7 +144,7 @@
 
 @media (max-width: 576px) {
   .TV.txt {
-    font-size: 100px; /* Adjust for mobile phones */
+    font-size: 50px; /* Adjust for mobile phones */
   }
 }
 
