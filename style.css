@@ -127,7 +127,7 @@
  
  }
  .TV.txt {
-  font-size: 250px; /* Default size for large screens */
+  font-size: 200px; /* Default size for large screens */
 }
 
 @media (max-width: 1200px) {
