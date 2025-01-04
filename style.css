@@ -131,7 +131,14 @@
  }
  .TV.txt {
   font-size: 200px;
+  color: white;
 }
+.TV.txt:hover {
+  
+  color: gold;
+  transition: 1s;
+}
+
 
 @media (max-width: 1200px) {
   .TV.txt {
