@@ -91,8 +91,8 @@
   font-family: 'MyCustomFont' , sans-serif;
 }
 .TV_BACkground{
-  background: rgb(182,132,236);
-  background: linear-gradient(90deg, rgba(182,132,236,0.835171568627451) 0%, rgba(150,58,241,0.9248074229691877) 0%, rgba(139,145,224,1) 42%);
+  /* background: rgb(182,132,236);
+  background: linear-gradient(90deg, rgba(182,132,236,0.835171568627451) 0%, rgba(150,58,241,0.9248074229691877) 0%, rgba(139,145,224,1) 42%); */
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -162,7 +162,7 @@
 }
 
 #nav-link-style{
-color: #111;
+color: white;
 padding: 2px;
 margin: 5px;
 }
@@ -184,8 +184,11 @@ margin: 5px;
 
 
  body{
-  background-image: linear-gradient(to right bottom, #000000, #350021, #59004f, #670093, #1b12eb);
+  /* background-image: linear-gradient(to right bottom, #000000, #350021, #59004f, #670093, #1b12eb); */
+  background: rgb(29,18,97);
+background: linear-gradient(90deg, rgba(29,18,97,1) 0%, rgba(75,85,222,1) 97%);
  }
  #nav-bar{
-  background-color: wheat;
+  background: rgb(29,18,97);
+background: linear-gradient(90deg, rgba(29,18,97,1) 0%, rgba(75,85,222,1) 97%);
  }
