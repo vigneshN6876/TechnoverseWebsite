@@ -181,3 +181,11 @@ margin: 5px;
   color: #FFD60A;
   transition: 1s;
  }
+
+
+ body{
+  background-image: linear-gradient(to right bottom, #000000, #350021, #59004f, #670093, #1b12eb);
+ }
+ #nav-bar{
+  background-color: wheat;
+ }
