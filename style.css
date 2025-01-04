@@ -148,19 +148,19 @@
 
 @media (max-width: 768px) {
   .TV.txt {
-    font-size: 30px; 
+    font-size: 50px; 
   }
 }
 
 @media (max-width: 576px) {
   .TV.txt {
-    font-size: 30px; 
+    font-size: 50px; 
   }
 }
 
 @media (max-width: 360px) {
   .TV.txt {
-    font-size: 30px; 
+    font-size: 50px; 
   }
 }
 
