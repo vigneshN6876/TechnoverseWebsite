@@ -135,25 +135,25 @@
 
 @media (max-width: 1200px) {
   .TV.txt {
-    font-size: 75px; 
+    font-size: 200px; 
   }
 }
 
 @media (max-width: 768px) {
   .TV.txt {
-    font-size: 75px; 
+    font-size: 30px; 
   }
 }
 
 @media (max-width: 576px) {
   .TV.txt {
-    font-size: 75px; 
+    font-size: 30px; 
   }
 }
 
 @media (max-width: 360px) {
   .TV.txt {
-    font-size: 25px; 
+    font-size: 30px; 
   }
 }
 
