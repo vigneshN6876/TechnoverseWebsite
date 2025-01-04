@@ -128,33 +128,54 @@
  
  }
  .TV.txt {
-  font-size: 200px; /* Default size for large screens */
+  font-size: 200px;
 }
 
 @media (max-width: 1200px) {
   .TV.txt {
-    font-size: 50px; /* Adjust for smaller desktops or tablets */
+    font-size: 75px; 
   }
 }
 
 @media (max-width: 768px) {
   .TV.txt {
-    font-size: 50px; /* Adjust for tablets */
+    font-size: 75px; 
   }
 }
 
 @media (max-width: 576px) {
   .TV.txt {
-    font-size: 50px; /* Adjust for mobile phones */
+    font-size: 75px; 
   }
 }
 
 @media (max-width: 360px) {
   .TV.txt {
-    font-size: 30px; /* Adjust for very small mobile screens */
+    font-size: 50px; 
   }
 }
 
 .carousel-control-next-icon.dark-icon {
   background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D%27http://www.w3.org/2000/svg%27 fill%3D%27black%27 viewBox%3D%270 0 16 16%27%3E%3Cpath d%3D%27M11.354 8.5a.5.5 0 0 0 0-.707l-4-4a.5.5 0 0 0-.707.707L10.293 8l-3.646 3.646a.5.5 0 0 0 .707.707l4-4z%27/%3E%3C/svg%3E');
 }
+
+#nav-link-style{
+color: #111;
+padding: 2px;
+margin: 5px;
+}
+#nav-link-style:hover{
+  color:#FFD60A;
+  }
+  #nav-item-style:hover{
+    background-color: #111;
+    border-radius: 30px;
+    transition: 0.5s;
+  }
+  #technoverse{
+    color:white;
+   }
+ #technoverse:hover{
+  color: #FFD60A;
+  transition: 1s;
+ }
