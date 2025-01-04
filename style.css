@@ -174,13 +174,7 @@ margin: 5px;
     border-radius: 30px;
     transition: 0.5s;
   }
-  #technoverse{
-    color:white;
-   }
- #technoverse:hover{
-  color: #FFD60A;
-  transition: 1s;
- }
+
 
 
  body{
