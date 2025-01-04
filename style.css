@@ -192,3 +192,53 @@ background: linear-gradient(90deg, rgba(29,18,97,1) 0%, rgba(75,85,222,1) 97%);
   background: rgb(29,18,97);
 background: linear-gradient(90deg, rgba(29,18,97,1) 0%, rgba(75,85,222,1) 97%);
  }
+ /* Change the color of the hamburger icon to white */
+.navbar-toggler-icon {
+  background-color: white;
+  width: 35px; /* Make the icon larger */
+  height: 4px; /* Make the bars thicker */
+  border-radius: 2px; /* Slightly rounded corners for a smoother look */
+  transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+/* Style the navbar-toggler button */
+
+.trigger {
+    position: absolute;
+    z-index: 2;
+    left: 0%;
+    top: 0%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    /* transform: translateX(-50%) translateY(-50%); */
+}
+
+.bars {
+  width: 80px;
+  cursor: pointer;
+}
+.bars .line {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 4;
+  stroke-linecap: square;
+ transition: stroke-dasharray 400ms,  stroke-dashoffset 400ms;
+}
+.bars .line.top {
+  stroke-dasharray: 40 172;
+}
+.bars .line.middle {
+  stroke-dasharray: 40 111;
+}
+.bars .line.bottom {
+  stroke-dasharray: 40 172;
+}
+.bars.active .top {
+  stroke-dashoffset: -132px;
+}
+.bars.active .middle {
+  stroke-dashoffset: -71px;
+}
+.bars.active .bottom {
+  stroke-dashoffset: -132px;
+}
