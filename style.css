@@ -207,7 +207,7 @@ background: linear-gradient(90deg, rgba(29,18,97,1) 0%, rgba(75,85,222,1) 97%);
     position: absolute;
     z-index: 2;
     left: 0%;
-    top: 0%;
+    top: 50%;
     border: 2px solid #fff;
     border-radius: 10px;
     /* transform: translateX(-50%) translateY(-50%); */
@@ -222,7 +222,7 @@ background: linear-gradient(90deg, rgba(29,18,97,1) 0%, rgba(75,85,222,1) 97%);
   stroke: #fff;
   stroke-width: 4;
   stroke-linecap: square;
- transition: stroke-dasharray 400ms,  stroke-dashoffset 400ms;
+  transition: stroke-dasharray 400ms,  stroke-dashoffset 400ms;
 }
 .bars .line.top {
   stroke-dasharray: 40 172;
