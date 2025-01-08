@@ -243,3 +243,8 @@ background: linear-gradient(90deg, rgba(29,18,97,1) 0%, rgba(75,85,222,1) 97%);
 .bars.active .bottom {
   stroke-dashoffset: -132px;
 }
+.carousel-control-prev,
+.carousel-control-next {
+  z-index: 10; /* Ensure buttons are above the carousel images */
+  pointer-events: auto; /* Ensure buttons can be clicked */
+}
