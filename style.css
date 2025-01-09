@@ -154,13 +154,13 @@
 
 @media (max-width: 576px) {
   .TV.txt {
-    font-size: 50px; 
+    font-size: 75px; 
   }
 }
 
 @media (max-width: 360px) {
   .TV.txt {
-    font-size: 50px; 
+    font-size: 75px; 
   }
 }
 
@@ -198,7 +198,7 @@ background: linear-gradient(90deg, rgba(29,18,97,1) 0%, rgba(75,85,222,1) 97%);
   background-color: white;
   width: 35px; /* Make the icon larger */
   height: 4px; /* Make the bars thicker */
-  border-radius: 2px; /* Slightly rounded corners for a smoother look */
+ 
   transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
 }
 
@@ -209,8 +209,9 @@ background: linear-gradient(90deg, rgba(29,18,97,1) 0%, rgba(75,85,222,1) 97%);
     z-index: 2;
     left: 0%;
     top: 50%;
-    border: 2px solid #fff;
-    border-radius: 10px;
+    border: none;
+    /* border: 2px solid #fff; */
+    /* border-radius: 10px; */
     /* transform: translateX(-50%) translateY(-50%); */
 }
 
